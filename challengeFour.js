@@ -53,13 +53,7 @@ function draw() {
   drawSprite(mouseX, 130);
   paperY = paperY + speed;
 
-  if (collided == true) {
-    noFill();
-    rotate(1.06);
-    arc(300, -80, 20, 20, -10, PI + QUARTER_PI, OPEN);
-    pop();
-  } else {
-  }
+
 }
 
 function drawPaper(x, y) {
